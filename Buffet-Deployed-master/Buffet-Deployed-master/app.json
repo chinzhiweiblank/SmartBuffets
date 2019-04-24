@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "smartBuffets",
+    "slug": "smartBuffets",
+    "description": "SmartBuffets was borne out of a vision to use deep learning to reduce overproduction of food at buffets. It deploys an LSTM model to predict when each dish will run out, providing chefs with real-time notifications on the status of each dish. SmartBuffets seeks to reduce food wastage at buffets to promote long term food sustainability.",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icons.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smartbuffets.smartbuffetapplication"
+    }
+  }
+}
